@@ -12,6 +12,7 @@ namespace PeerReviewSample
     
         public Database()
         {
+            //ConnectionString for database
             string connectionString = "Server=localhost;Port=3306;Database=peer_review_sample;Uid=root;Pwd=root;";
             connection = new MySqlConnection(connectionString);
         }

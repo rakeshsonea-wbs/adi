@@ -19,6 +19,7 @@ namespace PeerReviewSample
 
         protected void Create(string sqlQuery)
         {
+            //Comment for git demonstration
             cmd = new MySqlCommand(sqlQuery, connection);
             cmd.CommandType = CommandType.Text;
             connection.Open();

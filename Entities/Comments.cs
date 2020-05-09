@@ -8,6 +8,7 @@ namespace PeerReviewSample.Entities
 {
     class Comments
     {
+        //Comments for git
         private string comment;
         private int reviewId;
         private int rate;
